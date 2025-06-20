@@ -28,7 +28,7 @@ docker run -p 8000:8000 category-classifier
 curl -X POST http://localhost:8000/classify -H "Content-Type: application/json" -d '{"query": "red hoodie", "top_n": 2}'
 ```
 
-## 🧠 Powered by
+## Powered by
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [SentenceTransformers](https://www.sbert.net/)
