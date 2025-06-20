@@ -6,8 +6,8 @@ A FastAPI-based microservice that classifies text queries (e.g., user search ter
 ## Run Locally
 
 ```bash
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+pip3 install -r requirements.txt
+python3 -m uvicorn app.main:app --reload
 ```
 
 ## Run with Docker
